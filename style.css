@@ -1,0 +1,56 @@
+
+
+/*formulaire*/
+form{ 
+    
+    display:grid;
+    grid-template-columns: 100px 150px;
+    
+    gap:15px;
+    border:solid 2px black;
+    border-radius: 10px;
+    width:350px;
+    font-size: 20px;
+    margin: 20px;
+    padding:20px;
+    background-color:cornflowerblue;
+}
+span{
+    color:red;
+}
+
+textarea{
+    width: 200px;
+}
+
+.formulaire{
+    display:flex;
+    
+    align-items: center;
+    
+    
+    
+}
+/* .comm{
+    background-color:brown;
+    
+
+} */
+.comm form{
+    display:flex;
+    flex-direction: column;
+    grid-template-rows:1fr 1fr; 
+    
+    background-color:cornflowerblue;
+    width:800px;
+}
+label[for="langages"]{
+    display:flex;
+}
+
+input[type="button"]{
+    display:flex;
+
+} 
+
+
